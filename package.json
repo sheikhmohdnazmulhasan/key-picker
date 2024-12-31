@@ -1,0 +1,33 @@
+{
+  "name": "key-picker",
+  "version": "1.0.0",
+  "description": "A utility to pick specific keys from an object, useful for filtering valid query strings.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheikhmohdnazmulhasan/key-picker.git"
+  },
+  "keywords": [
+    "object",
+    "filter",
+    "query-string",
+    "",
+    "key-picker"
+  ],
+  "author": "Sheikh Mohammad Nazmul H. nazmulofficial@outloo.com",
+  "license": "MIT",
+  "homepage": "https://github.com/sheikhmohdnazmulhasan/key-picker#readme",
+  "bugs": {
+    "url": "https://github.com/sheikhmohdnazmulhasan/key-picker/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
